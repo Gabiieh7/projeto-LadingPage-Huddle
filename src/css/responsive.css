@@ -1,0 +1,122 @@
+@media (min-width:1600px) {
+    .container{
+        max-width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width:1100px) {
+    .container .div-info {
+        padding-top: 1.5rem;
+    }
+
+    .container .div-info .titulo {
+        font-size: 2.5rem;
+    }
+
+    .contato {
+        padding-right: 18rem;
+    }
+}
+
+@media (max-width:950px) {
+    .container .div-info {
+        padding: 1rem 1rem 1rem 2.5rem;
+    }
+
+    .container .div-info .texto,
+    .container .div-info .btn {
+        font-size: 1.5rem;
+    }
+
+    .contato {
+        padding-right: 12rem;
+    }
+}
+
+@media (max-width:750px) {
+    body {
+        background: hsl(257, 40%, 49%) url(../imagens/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        padding: 2rem;
+    }
+    .cabecalho .logo {
+        width: 15rem;
+        margin-left: 1rem;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin:0 0 2rem;
+    }
+
+    .container .div-image {
+        width: 65%;
+    }
+
+    .container .div-info {
+        padding: 2.5rem 0 0;
+        max-width: 70%;
+        max-height: 100%;
+    }
+
+    .container .div-info .titulo {
+        font-size: 2rem;
+    }
+
+    .container .div-info .texto {
+        line-height: 2.2rem;
+        margin-top: 1.5rem;
+    }
+
+    .container .div-info .btn {
+        font-size: 1.2rem;
+        width: 70%;
+    }
+
+    .contato {
+        padding: 0;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:470px) {
+   
+   .cabecalho .logo {
+        width: 10rem;
+    }
+
+    .container {
+        margin-top:1rem;
+    }
+
+    .container .div-image {
+        width: 90%;
+    }
+
+    .container .div-info {
+        max-width: 89%;
+    }
+
+    .container .div-info .texto {
+        font-size: 1.3rem;
+    }
+    .container .div-info .btn {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+    .contato a .fab{
+        font-size: 1rem;
+        padding: 0.9rem;
+        width: 2.8rem;
+        height: 2.8rem;
+        border: 0.1rem solid;
+    }
+}
+@media (max-width:375px){
+    .container{
+        margin: 0;
+    }
+}
